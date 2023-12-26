@@ -1,0 +1,112 @@
+﻿.login-container {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 60px rgba(0, 0, 255, 255);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .input-group input {
+        width: 100%;
+        padding: 10px 10px 10px 5px;
+        border: none;
+        background: none;
+        outline: none;
+        border-bottom: 1px solid;
+        color: #000;
+        transition: border-bottom-color 0.3s ease;
+    }
+
+    .input-group label {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        color: #000;
+        transition: top 0.4s ease, font-size 0.5s ease;
+    }
+
+    .input-group input:focus {
+        border-bottom-color: #000;
+    }
+
+        .input-group input:focus + label,
+        .input-group input:not(:placeholder-shown) + label {
+            top: -10px;
+            font-size: 15px;
+        }
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #00b;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+    button:hover {
+        background-color: #000;
+    }
+
+.register-option {
+    margin-top: 15px;
+    text-align: center;
+}
+
+    .register-option a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+    }
+
+        .register-option a:hover {
+            color: firebrick;
+        }
+
+.forget-password {
+    text-decoration: none;
+    color: #000;
+}
+
+    .forget-password:hover {
+        text-decoration: underline;
+        font-size: 17px;
+        color: firebrick;
+    }
+
+.registration-container {
+    width: 500px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 20px;
+}
+
+.input-group label {
+    top: -10px;
+    font-size: 12px;
+}
